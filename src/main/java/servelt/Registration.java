@@ -35,7 +35,7 @@ public class Registration extends HttpServlet{
 			ps.setString(2, email);
 			ps.setString(3, pass);
 			ps.executeUpdate();
-			resp.sendRedirect("home.jsp"); // redirects the page after this servlet has beedn executed
+			resp.sendRedirect("home.jsp"); // redirects the page after this servlet has beedn executed. This is dope comment
 			
 		}catch (Exception e) {
 			// TODO: handle exception
