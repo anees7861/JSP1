@@ -31,7 +31,7 @@ public class LoginCheck extends HttpServlet {
 			ps.setString(2, pass);
 			ResultSet rs = ps.executeQuery();
 			PrintWriter out = resp.getWriter();
-			
+			// commnet this bro 
 			if(rs.next()) {
 				
 				// create a session to save user data
